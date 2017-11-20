@@ -27,7 +27,7 @@ RUN echo "@community https://nl.alpinelinux.org/alpine/v3.4/community" >> /etc/a
  && rm -rf /var/cache/apk/* /tmp/*
 COPY run.sh /usr/local/bin/run.sh
 RUN chmod +x /usr/local/bin/run.sh
-EXPOSE 8080
+EXPOSE 58889
 VOLUME /db
 CMD ["run.sh"]
 
