@@ -1,6 +1,10 @@
 [general]
 dbpath = %%DB%%
-host = %%URL%%
+host =
+    http://www.xiazaij.com/
+    http://xiazaij.com/
+    https://www.xiazaij.com/
+    https://xiazaij.com/
 [server]
 listen = %%LISTEN%%
 [moderation]
