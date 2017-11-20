@@ -11,7 +11,7 @@ listen = %%LISTEN%%
 enabled = false
 [guard]
 enabled = true
-ratelimit = 1
+ratelimit = 10000
 direct-reply = 30
 reply-to-self = false
 require-author = false
