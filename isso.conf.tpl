@@ -7,8 +7,8 @@ listen = %%LISTEN%%
 enabled = false
 [guard]
 enabled = true
-ratelimit = 3
-direct-reply = 3
+ratelimit = 1
+direct-reply = 30
 reply-to-self = false
-require-author = true
-require-email = true
+require-author = false
+require-email = false
