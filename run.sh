@@ -42,6 +42,7 @@ else
 	chown -R $UID:$GID /db /config
 
 	exec su-exec $UID:$GID gunicorn -b 0.0.0.0:58889 -w 4 --preload isso.run
+
 	#isso -c /config/isso.conf run
 
 fi
